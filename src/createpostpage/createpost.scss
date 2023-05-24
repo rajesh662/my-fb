@@ -1,0 +1,121 @@
+#post-section{
+    position: relative;
+  
+    .post-back{
+        opacity: 0.2;
+       
+    }
+   .post-card{
+    position: absolute;
+    position: fixed;
+    top:80px;
+  width: 100%;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+   }
+   .post{
+    width: 42%;
+    position: relative;
+    .oooo{
+        display: flex;
+        .css-i4bv87-MuiSvgIcon-root{
+            margin-left: 10px  !important;
+            font-size: 35px !important;
+        }
+    }
+    h1{
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid lightgrey;
+    }
+    .post-close{
+        position: absolute;
+        right: 15px;
+        top: 7px;
+    }
+    .post-man{
+        display: flex;
+        padding: 10px 0px 10px 20px ;
+    }
+    .man-img{
+        margin-right: 10px;
+    }
+    .post-box{
+        padding: 20px 20px;
+        input[type="text" i]{
+width: 100%;
+padding-bottom: 80px;
+border: none;
+        }
+    }
+    .post-icon{
+        padding:10px 10px;
+        display: flex;
+        align-items: center;
+       border: 1px solid lightgray;
+       margin: 20px;
+       
+       .MuiButtonBase-root {
+        border-radius: 50px !important;
+       }
+       img{
+        width: 25px;
+       }
+       .post-img{
+        margin-left: 10px;
+       }
+    }
+    .post-btn{
+        margin: 30px 20px;
+        text-align: center;
+       button{
+        width: 100%;
+        padding: 8px 0px;
+        border: none;
+        font-size: 18px;
+        color: lightgray;
+       }
+       button:hover{
+        background-color: green;
+        color: white;
+       }
+    }
+   }
+
+    @media (max-width:576px) {
+       
+            .post{
+                width: 80%;
+                .post-icon{
+                    display: block;
+                    text-align: center;
+                }
+            }
+           
+    }
+    @media (min-width:576px) and (max-width:768px) {
+        .post-card{
+            top: 38px;
+          }
+        .post{
+            width: 80%;
+          
+            .post-box input[type=text i]{
+                padding-bottom: 0px;
+            }
+        }
+    }
+    @media (min-width:768px) and (max-width:992px) {
+        .post-card{
+            top:250px;
+        }
+        .post{
+            width: 80%;
+
+        }
+    }
+    @media (min-width:992px) and (max-width:1200px){
+        
+    }
+}
